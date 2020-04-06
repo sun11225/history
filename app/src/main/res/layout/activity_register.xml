@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context="sun.com.history.ui.RegisterActivity">
+
+        <ImageButton
+            android:id="@+id/ibtn_back"
+            android:background="@mipmap/icon_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/ed_user_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入用户名"
+        android:maxLength="20"
+        android:textColorHint="#55000000" />
+
+    <EditText
+    android:id="@+id/ed_pwd_1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="请输入密码"
+    android:inputType="textPassword"
+    android:maxLength="20"
+    android:textColorHint="#55000000" />
+
+    <EditText
+        android:id="@+id/ed_pwd_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请再次输入密码"
+        android:inputType="textPassword"
+        android:maxLength="20"
+        android:textColorHint="#55000000" />
+
+    <EditText
+        android:id="@+id/ed_e_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入邮箱"
+        android:maxLength="20"
+        android:textColorHint="#55000000" />
+
+    <Button
+        android:id="@+id/btn_register_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="注 册"
+        android:textColor="@color/color_white"
+        android:background="@drawable/button_bg"/>
+
+</LinearLayout>
